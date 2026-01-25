@@ -2,49 +2,54 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
 import { Button } from '@/components/Button'
-import { GridPattern } from '@/components/GridPattern'
 import coverImage from '@/images/cover.jpg'
+import heroBg from '@/images/hero-bg.jpg'
 
 export function Hero() {
   const t = useTranslations('hero')
 
   return (
-    <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pt-20 lg:pb-36 xl:py-32">
-        <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
-          <div className="absolute -top-20 right-1/2 -bottom-12 left-0 z-10 rounded-br-6xl bg-blue-900 text-white/10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-40">
-            <GridPattern
-              x="100%"
-              y="100%"
-              patternTransform="translate(112 64)"
+    <header className="relative overflow-visible">
+      <div className="absolute inset-0">
+        <Image
+          src={heroBg}
+          alt=""
+          fill
+          className="object-cover object-top"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-slate-900" />
+      </div>
+
+      <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-24 sm:px-6 lg:flex lg:items-end lg:gap-16 lg:px-8 lg:pt-24 lg:pb-16">
+        <div className="flex justify-center lg:flex-shrink-0 lg:translate-y-24">
+          <div className="relative w-72 rounded-xl shadow-2xl md:w-80 lg:w-md">
+            <Image
+              className="w-full rounded-xl"
+              src={coverImage}
+              alt=""
+              priority
             />
           </div>
-          <div className="relative z-10 mx-auto flex w-64 rounded-xl bg-slate-600 shadow-xl md:w-80 lg:w-auto">
-            <Image className="w-full" src={coverImage} alt="" priority />
-          </div>
         </div>
-        <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pr-0 lg:pb-14 lg:pl-16 xl:pl-20">
-          <div className="hidden lg:absolute lg:-top-32 lg:right-[-100vw] lg:bottom-0 lg:left-[-100vw] lg:block lg:bg-slate-100" />
-          <div className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-            <span className="inline-block rounded-full bg-blue-600 px-4 py-1.5 text-sm font-semibold text-white">
-              {t('freeBook')}
-            </span>
-          </div>
-        </div>
-        <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
-          <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              {t('title')}
-            </h1>
-            <p className="mt-4 text-3xl text-slate-600">{t('subtitle')}</p>
-            <div className="mt-8 flex gap-4">
-              <Button href="#download" color="blue">
-                {t('downloadPdf')}
-              </Button>
-              <Button href="#download" variant="outline" color="blue">
-                {t('downloadEpub')}
-              </Button>
-            </div>
+
+        <div className="mt-12 text-center lg:mt-0 lg:text-left">
+          <span className="inline-block rounded-full bg-amber-500 px-4 py-1.5 text-sm font-semibold text-slate-900">
+            {t('freeBook')}
+          </span>
+          <h1 className="mt-6 font-display text-5xl font-extrabold tracking-tight text-white sm:text-6xl">
+            {t('title')}
+          </h1>
+          <p className="mt-4 text-xl text-slate-200 sm:text-2xl">
+            {t('subtitle')}
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
+            <Button href="#download" color="blue">
+              {t('downloadPdf')}
+            </Button>
+            <Button href="#download" variant="outline" color="blue">
+              {t('downloadEpub')}
+            </Button>
           </div>
         </div>
       </div>

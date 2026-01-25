@@ -10,7 +10,7 @@ export function Introduction() {
     <section
       id="introduction"
       aria-label="Introduction"
-      className="pt-20 pb-16 sm:pb-20 md:pt-36 lg:py-32"
+      className="pt-32 pb-16 sm:pb-20 md:pt-44 lg:pt-48 lg:pb-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <SectionHeading number="1" id="introduction-title">
