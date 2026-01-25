@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Hotel with a Thousand Stars - A Journey to Adulthood",
+    "description": "An autobiographical tale about a young man on the path to adulthood, driven by a desire for freedom and connection."
+  },
+  "hero": {
+    "title": "Hotel with a Thousand Stars",
+    "subtitle": "An autobiographical journey through Europe, the Middle East, and Africa in search of freedom and connection.",
+    "downloadPdf": "Download PDF",
+    "downloadEpub": "Download EPUB",
+    "freeBook": "Free book"
+  },
+  "introduction": {
+    "label": "About the book",
+    "title": "A story about life in an unknown world, without certainty and without guarantee of a good outcome.",
+    "paragraph1": "Hotel with a Thousand Stars is an autobiographical tale about a young man on the path to adulthood, driven by a desire for freedom and connection.",
+    "paragraph2": "The story opens with a conversation between a father and son on another planet, in which the son asks to incarnate on Earth. This conversation forms the spiritual undertone of the challenges the protagonist encounters during his wanderings through Europe, the Middle East, and Africa.",
+    "paragraph3": "It is a story about the life of a person in an unknown world, without certainty and without guarantee of a good outcome."
+  },
+  "author": {
+    "label": "Author",
+    "name": "Louis Henderiks",
+    "title": "Hey there, I'm Louis Henderiks, the author of 'Hotel with a Thousand Stars'.",
+    "bio": "Louis Henderiks (1961) spent much of his youth traveling. Afterward, he tried to build a normal life, with limited success. Writing came later, after his father passed away. This book is his literary debut.",
+    "followOn": "Follow on X"
+  },
+  "testimonials": {
+    "title": "What readers are saying...",
+    "subtitle": "Early readers have shared their thoughts on this deeply personal journey.",
+    "readMore": "Read more testimonials"
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "allRightsReserved": "All rights reserved."
+  },
+  "language": {
+    "switchTo": "Nederlands"
+  }
+}
