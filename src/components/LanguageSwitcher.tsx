@@ -1,27 +1,41 @@
 'use client'
 
-import { useLocale, useTranslations } from 'next-intl'
+import { useLocale } from 'next-intl'
 import { useRouter, usePathname } from 'next/navigation'
 
+const languages = [
+  { code: 'en', label: 'English' },
+  { code: 'nl', label: 'Nederlands' },
+  { code: 'fr', label: 'Français' },
+  { code: 'de', label: 'Deutsch' },
+  { code: 'es', label: 'Español' },
+]
+
 export function LanguageSwitcher() {
-  const t = useTranslations('language')
   const locale = useLocale()
   const router = useRouter()
   const pathname = usePathname()
 
-  const switchLocale = () => {
-    const newLocale = locale === 'nl' ? 'en' : 'nl'
+  const switchLocale = (newLocale: string) => {
     const newPath = pathname.replace(`/${locale}`, `/${newLocale}`)
     router.push(newPath)
   }
 
   return (
-    <button
-      onClick={switchLocale}
-      className="inline-flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-    >
-      <span className="text-base">🌐</span>
-      {t('switchTo')}
-    </button>
+    <div className="flex flex-wrap justify-center items-center gap-2">
+      {languages.map((lang) => (
+        <button
+          key={lang.code}
+          onClick={() => switchLocale(lang.code)}
+          className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
+            locale === lang.code
+              ? 'bg-slate-900 text-white'
+              : 'text-slate-700 hover:bg-slate-100 hover:text-slate-900'
+          }`}
+        >
+          {lang.label}
+        </button>
+      ))}
+    </div>
   )
 }

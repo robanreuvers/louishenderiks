@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Hôtel aux Mille Étoiles - Un Voyage vers l'Âge Adulte",
+    "description": "Un récit autobiographique sur un jeune homme en route vers l'âge adulte, animé par un désir de liberté et de connexion."
+  },
+  "hero": {
+    "title": "Hôtel aux Mille Étoiles",
+    "subtitle": "Un voyage autobiographique à travers l'Europe, le Moyen-Orient et l'Afrique à la recherche de liberté et de connexion.",
+    "downloadPdf": "Télécharger PDF",
+    "downloadEpub": "Télécharger EPUB",
+    "freeBook": "Un voyage autobiographique"
+  },
+  "introduction": {
+    "label": "À propos du livre",
+    "title": "Une histoire sur la vie dans un monde inconnu, sans certitude et sans garantie d'une bonne issue.",
+    "paragraph1": "Hôtel aux Mille Étoiles est un récit autobiographique sur un jeune homme en route vers l'âge adulte, animé par un désir de liberté et de connexion.",
+    "paragraph2": "L'histoire s'ouvre sur une conversation entre un père et un fils sur une autre planète, dans laquelle le fils demande à s'incarner sur Terre. Cette conversation forme la tonalité spirituelle des défis que le protagoniste rencontre lors de ses pérégrinations à travers l'Europe, le Moyen-Orient et l'Afrique.",
+    "paragraph3": "C'est une histoire sur la vie d'une personne dans un monde inconnu, sans certitude et sans garantie d'une bonne issue."
+  },
+  "author": {
+    "label": "Auteur",
+    "name": "Louis Henderiks",
+    "title": "Je suis Louis Henderiks, l'auteur de 'Hôtel aux Mille Étoiles'.",
+    "bio": "Louis Henderiks (1961) a passé une grande partie de sa jeunesse à voyager. Par la suite, il a essayé de construire une vie normale, avec un succès limité. L'écriture est venue plus tard, après le décès de son père. Ce livre est son premier ouvrage littéraire.",
+    "followOn": "Suivre sur X"
+  },
+  "testimonials": {
+    "title": "Ce que disent les lecteurs...",
+    "subtitle": "Les premiers lecteurs ont partagé leurs réflexions sur ce voyage profondément personnel.",
+    "readMore": "Lire plus de témoignages"
+  },
+  "community": {
+    "label": "Communauté",
+    "title": "Partagez Votre Voyage",
+    "description": "Connectez-vous avec d'autres voyageurs et lecteurs. Partagez vos propres histoires, découvrez de nouvelles destinations et trouvez l'inspiration pour votre prochaine aventure.",
+    "joinDiscord": "Rejoindre notre Discord"
+  },
+  "footer": {
+    "copyright": "Droits d'auteur",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "language": {
+    "switchTo": "English"
+  }
+}

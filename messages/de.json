@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Hotel mit Tausend Sternen - Eine Reise zum Erwachsenwerden",
+    "description": "Eine autobiografische Erzählung über einen jungen Mann auf dem Weg zum Erwachsenwerden, getrieben von einem Verlangen nach Freiheit und Verbundenheit."
+  },
+  "hero": {
+    "title": "Hotel mit Tausend Sternen",
+    "subtitle": "Eine autobiografische Reise durch Europa, den Nahen Osten und Afrika auf der Suche nach Freiheit und Verbundenheit.",
+    "downloadPdf": "PDF herunterladen",
+    "downloadEpub": "EPUB herunterladen",
+    "freeBook": "Eine autobiografische Reise"
+  },
+  "introduction": {
+    "label": "Über das Buch",
+    "title": "Eine Geschichte über das Leben in einer unbekannten Welt, ohne Gewissheit und ohne Garantie für einen guten Ausgang.",
+    "paragraph1": "Hotel mit Tausend Sternen ist eine autobiografische Erzählung über einen jungen Mann auf dem Weg zum Erwachsenwerden, getrieben von einem Verlangen nach Freiheit und Verbundenheit.",
+    "paragraph2": "Die Geschichte beginnt mit einem Gespräch zwischen einem Vater und einem Sohn auf einem anderen Planeten, in dem der Sohn darum bittet, auf der Erde inkarnieren zu dürfen. Dieses Gespräch bildet den spirituellen Unterton der Herausforderungen, denen der Protagonist auf seinen Wanderungen durch Europa, den Nahen Osten und Afrika begegnet.",
+    "paragraph3": "Es ist eine Geschichte über das Leben eines Menschen in einer unbekannten Welt, ohne Gewissheit und ohne Garantie für einen guten Ausgang."
+  },
+  "author": {
+    "label": "Autor",
+    "name": "Louis Henderiks",
+    "title": "Ich bin Louis Henderiks, der Autor von 'Hotel mit Tausend Sternen'.",
+    "bio": "Louis Henderiks (1961) verbrachte einen Großteil seiner Jugend auf Reisen. Danach versuchte er, ein normales Leben aufzubauen, mit mäßigem Erfolg. Das Schreiben kam später, nach dem Tod seines Vaters. Dieses Buch ist sein literarisches Debüt.",
+    "followOn": "Folgen auf X"
+  },
+  "testimonials": {
+    "title": "Was Leser sagen...",
+    "subtitle": "Frühe Leser haben ihre Gedanken zu dieser zutiefst persönlichen Reise geteilt.",
+    "readMore": "Mehr Rezensionen lesen"
+  },
+  "community": {
+    "label": "Gemeinschaft",
+    "title": "Teile Deine Reise",
+    "description": "Verbinde dich mit anderen Reisenden und Lesern. Teile deine eigenen Geschichten, entdecke neue Ziele und finde Inspiration für dein nächstes Abenteuer.",
+    "joinDiscord": "Unserem Discord beitreten"
+  },
+  "footer": {
+    "copyright": "Urheberrecht",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "language": {
+    "switchTo": "English"
+  }
+}

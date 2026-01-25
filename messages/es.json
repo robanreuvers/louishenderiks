@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Hotel con Mil Estrellas - Un Viaje hacia la Madurez",
+    "description": "Un relato autobiográfico sobre un joven en camino hacia la madurez, impulsado por un deseo de libertad y conexión."
+  },
+  "hero": {
+    "title": "Hotel con Mil Estrellas",
+    "subtitle": "Un viaje autobiográfico por Europa, Oriente Medio y África en busca de libertad y conexión.",
+    "downloadPdf": "Descargar PDF",
+    "downloadEpub": "Descargar EPUB",
+    "freeBook": "Un viaje autobiográfico"
+  },
+  "introduction": {
+    "label": "Sobre el libro",
+    "title": "Una historia sobre la vida en un mundo desconocido, sin certeza y sin garantía de un buen final.",
+    "paragraph1": "Hotel con Mil Estrellas es un relato autobiográfico sobre un joven en camino hacia la madurez, impulsado por un deseo de libertad y conexión.",
+    "paragraph2": "La historia comienza con una conversación entre un padre y un hijo en otro planeta, en la que el hijo pide encarnarse en la Tierra. Esta conversación forma el trasfondo espiritual de los desafíos que el protagonista encuentra durante sus andanzas por Europa, Oriente Medio y África.",
+    "paragraph3": "Es una historia sobre la vida de una persona en un mundo desconocido, sin certeza y sin garantía de un buen final."
+  },
+  "author": {
+    "label": "Autor",
+    "name": "Louis Henderiks",
+    "title": "Soy Louis Henderiks, el autor de 'Hotel con Mil Estrellas'.",
+    "bio": "Louis Henderiks (1961) pasó gran parte de su juventud viajando. Después, intentó construir una vida normal, con éxito limitado. La escritura llegó más tarde, tras el fallecimiento de su padre. Este libro es su debut literario.",
+    "followOn": "Seguir en X"
+  },
+  "testimonials": {
+    "title": "Lo que dicen los lectores...",
+    "subtitle": "Los primeros lectores han compartido sus pensamientos sobre este viaje profundamente personal.",
+    "readMore": "Leer más testimonios"
+  },
+  "community": {
+    "label": "Comunidad",
+    "title": "Comparte Tu Viaje",
+    "description": "Conéctate con otros viajeros y lectores. Comparte tus propias historias, descubre nuevos destinos y encuentra inspiración para tu próxima aventura.",
+    "joinDiscord": "Únete a nuestro Discord"
+  },
+  "footer": {
+    "copyright": "Derechos de autor",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "language": {
+    "switchTo": "English"
+  }
+}
