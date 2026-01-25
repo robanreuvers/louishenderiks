@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
-import authorImage from '@/images/avatars/author.png'
+import authorImage from '@/images/author.jpg'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
