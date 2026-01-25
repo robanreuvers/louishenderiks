@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
@@ -14,6 +15,8 @@ function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export function Author() {
+  const t = useTranslations('author')
+
   return (
     <section
       id="author"
@@ -34,21 +37,15 @@ export function Author() {
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-            <SectionHeading number="5" id="author-title">
-              Author
+            <SectionHeading number="2" id="author-title">
+              {t('label')}
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Mira Lindehoff –</span> Hey
-              there, I’m the author behind ‘Everything Starts as a Square’.
+              <span className="block text-blue-600">{t('name')} –</span>{' '}
+              {t('title')}
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I’ve been designing icons professionally for over a decade and
-              have worked with dozens of the biggest brands to create custom
-              sets for their products. I’m an accomplished conference speaker,
-              and have been teaching icon design workshops every month for the
-              last three years. I’ve worked with designers of all skill levels
-              and honed my way of teaching to really click for anyone who has
-              the itch to start designing their own icons.
+              {t('bio')}
             </p>
             <p className="mt-8">
               <Link
@@ -56,7 +53,7 @@ export function Author() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
               >
                 <XIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Follow on X</span>
+                <span className="ml-4">{t('followOn')}</span>
               </Link>
             </p>
           </div>

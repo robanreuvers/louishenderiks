@@ -41,8 +41,8 @@
   --radius-5xl: 3rem;
   --radius-6xl: 5rem;
 
-  --font-sans: var(--font-inter);
-  --font-display:
-    Cabinet Grotesk, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-sans: var(--font-lora), ui-serif, Georgia, Cambria, 'Times New Roman',
+    Times, serif;
+  --font-display: var(--font-playfair), ui-serif, Georgia, Cambria,
+    'Times New Roman', Times, serif;
 }
