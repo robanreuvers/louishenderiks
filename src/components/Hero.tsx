@@ -44,10 +44,10 @@ export function Hero() {
             {t('subtitle')}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <Button href="#download" color="blue">
+            <Button href="#download" color="white">
               {t('downloadPdf')}
             </Button>
-            <Button href="#download" variant="outline" color="blue">
+            <Button href="#download" variant="outline" color="white">
               {t('downloadEpub')}
             </Button>
           </div>

@@ -29,6 +29,12 @@
     "subtitle": "Early readers have shared their thoughts on this deeply personal journey.",
     "readMore": "Read more testimonials"
   },
+  "community": {
+    "label": "Community",
+    "title": "Share Your Journey",
+    "description": "Connect with fellow travelers and readers. Share your own stories, discover new destinations, and find inspiration for your next adventure.",
+    "joinDiscord": "Join our Discord"
+  },
   "footer": {
     "copyright": "Copyright",
     "allRightsReserved": "All rights reserved."

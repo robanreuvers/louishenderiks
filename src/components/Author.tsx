@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 import { GridPattern } from '@/components/GridPattern'
@@ -27,7 +26,7 @@ export function Author() {
         <GridPattern x="50%" y="100%" />
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
-        <div className="bg-slate-50 pt-px sm:rounded-xl">
+        <div className="bg-slate-50 pt-px">
           <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
@@ -40,22 +39,22 @@ export function Author() {
             <SectionHeading number="2" id="author-title">
               {t('label')}
             </SectionHeading>
-            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">{t('name')} –</span>{' '}
+            <p className="mt-8 font-display text-4xl font-extrabold tracking-tight text-slate-900 sm:text-4xl sm:max-w-sm">
+              <span className="block text-slate-600">{t('name')} –</span>{' '}
               {t('title')}
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
               {t('bio')}
             </p>
-            <p className="mt-8">
-              <Link
-                href="#"
-                className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
-              >
-                <XIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">{t('followOn')}</span>
-              </Link>
-            </p>
+            {/*<p className="mt-8">*/}
+            {/*  <Link*/}
+            {/*    href="#"*/}
+            {/*    className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"*/}
+            {/*  >*/}
+            {/*    <XIcon className="h-10 w-10 fill-current" />*/}
+            {/*    <span className="ml-4">{t('followOn')}</span>*/}
+            {/*  </Link>*/}
+            {/*</p>*/}
           </div>
         </div>
       </div>

@@ -56,7 +56,7 @@ function Testimonial({
   children: React.ReactNode
 }) {
   return (
-    <figure className="rounded-4xl p-8 shadow-md ring-1 ring-slate-900/5">
+    <figure className="p-8 shadow-md ring-1 ring-slate-900/5">
       <blockquote>
         <p className="text-lg tracking-tight text-slate-900 before:content-['\201C'] after:content-['\201D']">
           {children}

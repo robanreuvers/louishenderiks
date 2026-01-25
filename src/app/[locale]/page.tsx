@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server'
 
 import { Author } from '@/components/Author'
+import { Community } from '@/components/Community'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
@@ -18,8 +19,9 @@ export default async function Home({
     <>
       <Hero />
       <Introduction />
-      <Testimonials />
+      <Community />
       <Author />
+      <Testimonials />
       <Footer />
     </>
   )

@@ -12,7 +12,7 @@ export function Introduction() {
       aria-label="Introduction"
       className="pt-32 pb-16 sm:pb-20 md:pt-44 lg:pt-48 lg:pb-32"
     >
-      <Container className="text-lg tracking-tight text-slate-700">
+      <Container size="sm" className="text-lg tracking-tight text-slate-700">
         <SectionHeading number="1" id="introduction-title">
           {t('label')}
         </SectionHeading>

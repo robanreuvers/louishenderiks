@@ -8,7 +8,7 @@
     "subtitle": "Een autobiografische reis door Europa, het Midden-Oosten en Afrika op zoek naar vrijheid en verbondenheid.",
     "downloadPdf": "Download PDF",
     "downloadEpub": "Download EPUB",
-    "freeBook": "Gratis boek"
+    "freeBook": "Download online"
   },
   "introduction": {
     "label": "Over het boek",
@@ -20,7 +20,7 @@
   "author": {
     "label": "Auteur",
     "name": "Louis Henderiks",
-    "title": "Hallo, ik ben Louis Henderiks, de auteur van 'Hotel met Duizend Sterren'.",
+    "title": "Ik ben Louis Henderiks, de auteur van 'Hotel met Duizend Sterren'.",
     "bio": "Louis Henderiks (1961) was in zijn jonge jaren veel onderweg. Daarna probeerde hij een normaal leven op te bouwen, wat maar matig lukte. Schrijven kwam later, na het overlijden van zijn vader. Dit boek is zijn literaire debuut.",
     "followOn": "Volg op X"
   },
@@ -28,6 +28,12 @@
     "title": "Wat lezers zeggen...",
     "subtitle": "Vroege lezers hebben hun gedachten gedeeld over deze diep persoonlijke reis.",
     "readMore": "Lees meer recensies"
+  },
+  "community": {
+    "label": "Community",
+    "title": "Deel jouw reis",
+    "description": "Maak contact met medereizigers en lezers. Deel je eigen verhalen, ontdek nieuwe bestemmingen en vind inspiratie voor je volgende avontuur.",
+    "joinDiscord": "Word lid van onze Discord"
   },
   "footer": {
     "copyright": "Copyright",

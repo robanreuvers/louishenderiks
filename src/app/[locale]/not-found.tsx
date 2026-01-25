@@ -21,7 +21,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="mt-6 text-base font-medium text-blue-600 hover:text-blue-800"
+          className="mt-6 text-base font-medium text-slate-600 hover:text-slate-800"
         >
           Go back home <span aria-hidden="true">&rarr;</span>
         </Link>
