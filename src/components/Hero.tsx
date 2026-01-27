@@ -1,12 +1,33 @@
 import Image from 'next/image'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 
 import { Button } from '@/components/Button'
-import coverImage from '@/images/cover.jpg'
 import heroBg from '@/images/hero-bg.jpg'
+
+const bookFiles: Record<string, { pdf: string; epub: string }> = {
+  nl: {
+    pdf: '/books/Hotel-met-Duizend-Sterren-Print.pdf',
+    epub: '/books/Hotel-met-Duizend-Sterren.epub',
+  },
+  en: {
+    pdf: '/books/Hotel-with-a-Thousand-Stars-Print.pdf',
+    epub: '/books/Hotel-with-a-Thousand-Stars.epub',
+  },
+  de: {
+    pdf: '/books/Hotel-mit-tausend-Sternen-Print.pdf',
+    epub: '/books/Hotel-mit-tausend-Sternen.epub',
+  },
+  es: {
+    pdf: '/books/Hotel-de-Mil-Estrellas-Print.pdf',
+    epub: '/books/Hotel-de-Mil-Estrellas.epub',
+  },
+}
 
 export function Hero() {
   const t = useTranslations('hero')
+  const locale = useLocale()
+  const coverImage = `/covers/cover_${locale}.jpg`
+  const files = bookFiles[locale] || bookFiles.nl
 
   return (
     <header className="relative overflow-visible">
@@ -28,6 +49,8 @@ export function Hero() {
               className="w-full rounded-xl"
               src={coverImage}
               alt=""
+              width={400}
+              height={600}
               priority
             />
           </div>
@@ -44,10 +67,10 @@ export function Hero() {
             {t('subtitle')}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <Button href="#download" color="white">
+            <Button href={files.pdf} color="white">
               {t('downloadPdf')}
             </Button>
-            <Button href="#download" variant="outline" color="white">
+            <Button href={files.epub} variant="outline" color="white">
               {t('downloadEpub')}
             </Button>
           </div>
