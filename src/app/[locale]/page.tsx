@@ -4,6 +4,7 @@ import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
+import { StickyHeader } from '@/components/StickyHeader'
 import { TranslationFeedback } from '@/components/TranslationFeedback'
 
 export default async function Home({
@@ -16,6 +17,7 @@ export default async function Home({
 
   return (
     <>
+      <StickyHeader />
       <Hero />
       <Introduction />
       <Author />

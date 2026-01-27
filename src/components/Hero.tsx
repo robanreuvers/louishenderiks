@@ -1,27 +1,11 @@
+'use client'
+
 import Image from 'next/image'
 import { useLocale, useTranslations } from 'next-intl'
 
 import { Button } from '@/components/Button'
-import heroBg from '@/images/hero-bg.jpg'
-
-const bookFiles: Record<string, { pdf: string; epub: string }> = {
-  nl: {
-    pdf: '/books/Hotel-met-Duizend-Sterren-Print.pdf',
-    epub: '/books/Hotel-met-Duizend-Sterren.epub',
-  },
-  en: {
-    pdf: '/books/Hotel-with-a-Thousand-Stars-Print.pdf',
-    epub: '/books/Hotel-with-a-Thousand-Stars.epub',
-  },
-  de: {
-    pdf: '/books/Hotel-mit-tausend-Sternen-Print.pdf',
-    epub: '/books/Hotel-mit-tausend-Sternen.epub',
-  },
-  es: {
-    pdf: '/books/Hotel-de-Mil-Estrellas-Print.pdf',
-    epub: '/books/Hotel-de-Mil-Estrellas.epub',
-  },
-}
+import { bookFiles, LanguageDownloadDropdown } from '@/components/LanguageDownloadDropdown'
+import heroBg from '@/images/header_small.jpg'
 
 export function Hero() {
   const t = useTranslations('hero')
@@ -44,7 +28,7 @@ export function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-24 sm:px-6 lg:flex lg:items-end lg:gap-16 lg:px-8 lg:pt-24 lg:pb-16">
         <div className="flex justify-center lg:flex-shrink-0 lg:translate-y-24">
-          <div className="relative w-72 rounded-xl shadow-2xl md:w-80 lg:w-md">
+          <div className="shadow-2xl relative w-72 rounded-xl md:w-80 lg:w-md">
             <Image
               className="w-full rounded-xl"
               src={coverImage}
@@ -67,13 +51,17 @@ export function Hero() {
             {t('subtitle')}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <Button href={files.pdf} color="white">
-              {t('downloadPdf')}
-            </Button>
-            <Button href={files.epub} variant="outline" color="white">
+            <Button href={files.epub} color="white">
               {t('downloadEpub')}
             </Button>
+            <Button href={files.pdf} variant="outline" color="white">
+              {t('downloadPdf')}
+            </Button>
+            <div className="mt-1">
+              <LanguageDownloadDropdown />
+            </div>
           </div>
+          <div className="mt-4 flex justify-center lg:justify-start"></div>
         </div>
       </div>
     </header>
