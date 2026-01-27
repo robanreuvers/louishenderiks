@@ -20,7 +20,7 @@ export function Author() {
     <section
       id="author"
       aria-labelledby="author-title"
-      className="relative scroll-mt-14 pt-8 pb-3 sm:scroll-mt-32 sm:pt-10 sm:pb-16 lg:pt-16"
+      className="relative scroll-mt-14 pt-8 pb-3 sm:scroll-mt-32 sm:pt-10 sm:pb-16 lg:pt-10"
     >
       <div className="absolute inset-x-0 top-1/2 bottom-0 mask-[linear-gradient(transparent,white)] text-slate-900/10">
         <GridPattern x="50%" y="100%" />

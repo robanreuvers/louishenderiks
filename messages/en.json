@@ -13,16 +13,22 @@
   "introduction": {
     "label": "About the book",
     "title": "A story about life in an unknown world, without certainty and without guarantee of a good outcome.",
-    "paragraph1": "Hotel with a Thousand Stars is an autobiographical tale about a young man on the path to adulthood, driven by a desire for freedom and connection.",
-    "paragraph2": "The story opens with a conversation between a father and son on another planet, in which the son asks to incarnate on Earth. This conversation forms the spiritual undertone of the challenges the protagonist encounters during his wanderings through Europe, the Middle East, and Africa.",
-    "paragraph3": "It is a story about the life of a person in an unknown world, without certainty and without guarantee of a good outcome."
+    "paragraph1": "Hotel with a Thousand Stars is an autobiographical tale about a young man on the path to adulthood, driven by a desire for freedom and connection. The story opens with a conversation between a father and son on another planet, in which the son asks to incarnate on Earth. This conversation forms the spiritual starting point of a life in an unknown world, without certainty and without guarantee of a good outcome.",
+    "paragraph2": "The book describes an open, sometimes raw existence along the edges of societies and through different countries and cultures, where survival, work, street music and encounters shape the days.",
+    "paragraph3": ""
   },
   "author": {
     "label": "Author",
     "name": "Louis Henderiks",
-    "title": "Hey there, I'm Louis Henderiks, the author of 'Hotel with a Thousand Stars'.",
-    "bio": "Louis Henderiks (1961) spent much of his youth traveling. Afterward, he tried to build a normal life, with limited success. Writing came later, after his father passed away. This book is his literary debut.",
+    "title": "I'm Louis Henderiks, the author of 'Hotel with a Thousand Stars'.",
+    "bio": "Louis Henderiks (1961) spent a long time traveling. Later, he settled in Groningen. Writing came later, after his father passed away. Hotel with a Thousand Stars is his literary debut.",
     "followOn": "Follow on X"
+  },
+  "translationFeedback": {
+    "label": "Translations",
+    "text": "This book has been translated from Dutch. Do you see an error, ambiguity, or other imperfection in the translation? Please let us know via",
+    "email": "louishenderiks@proton.me",
+    "suffix": "Corrections and suggestions are welcome."
   },
   "testimonials": {
     "title": "What readers are saying...",

@@ -13,16 +13,22 @@
   "introduction": {
     "label": "Über das Buch",
     "title": "Eine Geschichte über das Leben in einer unbekannten Welt, ohne Gewissheit und ohne Garantie für einen guten Ausgang.",
-    "paragraph1": "Hotel mit Tausend Sternen ist eine autobiografische Erzählung über einen jungen Mann auf dem Weg zum Erwachsenwerden, getrieben von einem Verlangen nach Freiheit und Verbundenheit.",
-    "paragraph2": "Die Geschichte beginnt mit einem Gespräch zwischen einem Vater und einem Sohn auf einem anderen Planeten, in dem der Sohn darum bittet, auf der Erde inkarnieren zu dürfen. Dieses Gespräch bildet den spirituellen Unterton der Herausforderungen, denen der Protagonist auf seinen Wanderungen durch Europa, den Nahen Osten und Afrika begegnet.",
-    "paragraph3": "Es ist eine Geschichte über das Leben eines Menschen in einer unbekannten Welt, ohne Gewissheit und ohne Garantie für einen guten Ausgang."
+    "paragraph1": "Hotel mit Tausend Sternen ist eine autobiografische Erzählung über einen jungen Mann auf dem Weg zum Erwachsenwerden, getrieben von einem Verlangen nach Freiheit und Verbundenheit. Die Geschichte beginnt mit einem Gespräch zwischen einem Vater und einem Sohn auf einem anderen Planeten, in dem der Sohn darum bittet, auf der Erde inkarnieren zu dürfen. Dieses Gespräch bildet den spirituellen Ausgangspunkt eines Lebens in einer unbekannten Welt, ohne Gewissheit und ohne Garantie für einen guten Ausgang.",
+    "paragraph2": "Das Buch beschreibt eine offene, manchmal raue Existenz am Rande von Gesellschaften und durch verschiedene Länder und Kulturen, in der Überleben, Arbeit, Straßenmusik und Begegnungen die Tage bestimmen.",
+    "paragraph3": ""
   },
   "author": {
     "label": "Autor",
     "name": "Louis Henderiks",
     "title": "Ich bin Louis Henderiks, der Autor von 'Hotel mit Tausend Sternen'.",
-    "bio": "Louis Henderiks (1961) verbrachte einen Großteil seiner Jugend auf Reisen. Danach versuchte er, ein normales Leben aufzubauen, mit mäßigem Erfolg. Das Schreiben kam später, nach dem Tod seines Vaters. Dieses Buch ist sein literarisches Debüt.",
+    "bio": "Louis Henderiks (1961) war lange Zeit viel unterwegs. Später ließ er sich in Groningen nieder. Das Schreiben kam später, nach dem Tod seines Vaters. Hotel mit Tausend Sternen ist sein literarisches Debüt.",
     "followOn": "Folgen auf X"
+  },
+  "translationFeedback": {
+    "label": "Übersetzungen",
+    "text": "Dieses Buch wurde aus dem Niederländischen übersetzt. Sehen Sie einen Fehler, eine Unklarheit oder andere Mängel in der Übersetzung? Lassen Sie es uns wissen über",
+    "email": "louishenderiks@proton.me",
+    "suffix": "Korrekturen und Vorschläge sind willkommen."
   },
   "testimonials": {
     "title": "Was Leser sagen...",

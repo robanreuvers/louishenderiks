@@ -13,16 +13,22 @@
   "introduction": {
     "label": "Over het boek",
     "title": "Een verhaal over het leven van een mens in een onbekende wereld, zonder houvast en zonder zekerheid over een goede afloop.",
-    "paragraph1": "Hotel met Duizend Sterren is een autobiografische vertelling over een jonge man op weg naar volwassenheid, gedreven door een verlangen naar vrijheid en verbondenheid.",
-    "paragraph2": "Het verhaal opent met een gesprek tussen een vader en een zoon op een andere planeet, waarin de zoon vraagt om op aarde te mogen incarneren. Dit gesprek vormt de spirituele ondertoon van de uitdagingen die de hoofdpersoon tegenkomt tijdens zijn omzwervingen door Europa, het Midden-Oosten en Afrika.",
-    "paragraph3": "Het is een verhaal over het leven van een mens in een onbekende wereld, zonder houvast en zonder zekerheid over een goede afloop."
+    "paragraph1": "Hotel met Duizend Sterren is een autobiografische vertelling over een jonge man op weg naar volwassenheid, gedreven door een verlangen naar vrijheid en verbondenheid. Het verhaal opent met een gesprek tussen een vader en een zoon op een andere planeet, waarin de zoon vraagt om op aarde te mogen incarneren. Dat gesprek vormt het spirituele vertrekpunt van een leven in een onbekende wereld, zonder houvast en zonder zekerheid over een goede afloop.",
+    "paragraph2": "Het boek beschrijft een open, soms rauw bestaan langs de randen van samenlevingen en door verschillende landen en culturen, waarin overleven, werken, straatmuziek en ontmoetingen de dagen bepalen.",
+    "paragraph3": ""
   },
   "author": {
     "label": "Auteur",
     "name": "Louis Henderiks",
     "title": "Ik ben Louis Henderiks, de auteur van 'Hotel met Duizend Sterren'.",
-    "bio": "Louis Henderiks (1961) was in zijn jonge jaren veel onderweg. Daarna probeerde hij een normaal leven op te bouwen, wat maar matig lukte. Schrijven kwam later, na het overlijden van zijn vader. Dit boek is zijn literaire debuut.",
+    "bio": "Louis Henderiks (1961) was lange tijd veel onderweg. Daarna vestigde hij zich in Groningen. Schrijven kwam later, na het overlijden van zijn vader. Hotel met Duizend Sterren is zijn literaire debuut.",
     "followOn": "Volg op X"
+  },
+  "translationFeedback": {
+    "label": "Vertalingen",
+    "text": "Dit boek is vertaald vanuit het Nederlands. Zie je een fout, onduidelijkheid of andere onvolkomenheid in de vertaling? Laat het weten via",
+    "email": "louishenderiks@proton.me",
+    "suffix": "Correcties en suggesties zijn welkom."
   },
   "testimonials": {
     "title": "Wat lezers zeggen...",

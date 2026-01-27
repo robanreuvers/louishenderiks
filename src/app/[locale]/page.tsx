@@ -1,11 +1,10 @@
 import { setRequestLocale } from 'next-intl/server'
 
 import { Author } from '@/components/Author'
-import { Community } from '@/components/Community'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
-import { Testimonials } from '@/components/Testimonials'
+import { TranslationFeedback } from '@/components/TranslationFeedback'
 
 export default async function Home({
   params,
@@ -19,9 +18,8 @@ export default async function Home({
     <>
       <Hero />
       <Introduction />
-      <Community />
       <Author />
-      <Testimonials />
+      <TranslationFeedback />
       <Footer />
     </>
   )

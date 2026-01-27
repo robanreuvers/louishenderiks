@@ -6,7 +6,6 @@ import { useRouter, usePathname } from 'next/navigation'
 const languages = [
   { code: 'en', label: 'English' },
   { code: 'nl', label: 'Nederlands' },
-  { code: 'fr', label: 'Français' },
   { code: 'de', label: 'Deutsch' },
   { code: 'es', label: 'Español' },
 ]

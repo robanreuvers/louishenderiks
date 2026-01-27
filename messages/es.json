@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Hotel con Mil Estrellas - Un Viaje hacia la Madurez",
+    "title": "Hotel de Mil Estrellas - Un Viaje hacia la Madurez",
     "description": "Un relato autobiográfico sobre un joven en camino hacia la madurez, impulsado por un deseo de libertad y conexión."
   },
   "hero": {
-    "title": "Hotel con Mil Estrellas",
+    "title": "Hotel de Mil Estrellas",
     "subtitle": "Un viaje autobiográfico por Europa, Oriente Medio y África en busca de libertad y conexión.",
     "downloadPdf": "Descargar PDF",
     "downloadEpub": "Descargar EPUB",
@@ -13,16 +13,22 @@
   "introduction": {
     "label": "Sobre el libro",
     "title": "Una historia sobre la vida en un mundo desconocido, sin certeza y sin garantía de un buen final.",
-    "paragraph1": "Hotel con Mil Estrellas es un relato autobiográfico sobre un joven en camino hacia la madurez, impulsado por un deseo de libertad y conexión.",
-    "paragraph2": "La historia comienza con una conversación entre un padre y un hijo en otro planeta, en la que el hijo pide encarnarse en la Tierra. Esta conversación forma el trasfondo espiritual de los desafíos que el protagonista encuentra durante sus andanzas por Europa, Oriente Medio y África.",
-    "paragraph3": "Es una historia sobre la vida de una persona en un mundo desconocido, sin certeza y sin garantía de un buen final."
+    "paragraph1": "Hotel de Mil Estrellas es un relato autobiográfico sobre un joven en camino hacia la madurez, impulsado por un deseo de libertad y conexión. La historia comienza con una conversación entre un padre y un hijo en otro planeta, en la que el hijo pide encarnarse en la Tierra. Esta conversación forma el punto de partida espiritual de una vida en un mundo desconocido, sin certeza y sin garantía de un buen final.",
+    "paragraph2": "El libro describe una existencia abierta, a veces cruda, en los márgenes de las sociedades y a través de diferentes países y culturas, donde la supervivencia, el trabajo, la música callejera y los encuentros marcan los días.",
+    "paragraph3": ""
   },
   "author": {
     "label": "Autor",
     "name": "Louis Henderiks",
-    "title": "Soy Louis Henderiks, el autor de 'Hotel con Mil Estrellas'.",
-    "bio": "Louis Henderiks (1961) pasó gran parte de su juventud viajando. Después, intentó construir una vida normal, con éxito limitado. La escritura llegó más tarde, tras el fallecimiento de su padre. Este libro es su debut literario.",
+    "title": "Soy Louis Henderiks, el autor de 'Hotel de Mil Estrellas'.",
+    "bio": "Louis Henderiks (1961) pasó mucho tiempo viajando. Más tarde, se estableció en Groningen. La escritura llegó después, tras el fallecimiento de su padre. Hotel de Mil Estrellas es su debut literario.",
     "followOn": "Seguir en X"
+  },
+  "translationFeedback": {
+    "label": "Traducciones",
+    "text": "Este libro ha sido traducido del neerlandés. ¿Ves un error, ambigüedad u otra imperfección en la traducción? Háznoslo saber a través de",
+    "email": "louishenderiks@proton.me",
+    "suffix": "Las correcciones y sugerencias son bienvenidas."
   },
   "testimonials": {
     "title": "Lo que dicen los lectores...",
