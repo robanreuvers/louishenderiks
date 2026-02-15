@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl'
 
 import { Button } from '@/components/Button'
 import { bookFiles, LanguageDownloadDropdown } from '@/components/LanguageDownloadDropdown'
+import { trackDownload } from '@/components/trackDownload'
 import heroBg from '@/images/header_small.jpg'
 
 export function Hero() {
@@ -51,10 +52,10 @@ export function Hero() {
             {t('subtitle')}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <Button href={files.epub} color="white">
+            <Button href={files.epub} color="white" onClick={() => trackDownload(locale, 'epub')}>
               {t('downloadEpub')}
             </Button>
-            <Button href={files.pdf} variant="outline" color="white">
+            <Button href={files.pdf} variant="outline" color="white" onClick={() => trackDownload(locale, 'pdf')}>
               {t('downloadPdf')}
             </Button>
             <div className="mt-1">

@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { trackDownload } from '@/components/trackDownload'
 
 const bookFiles: Record<string, { pdf: string; epub: string; label: string }> = {
   nl: {
@@ -68,6 +69,7 @@ export function LanguageDownloadDropdown({ compact = false }: { compact?: boolea
                 <MenuItem>
                   <a
                     href={data.epub}
+                    onClick={() => trackDownload(code, 'epub')}
                     className="text-sm text-slate-700 hover:text-slate-900 hover:underline data-[focus]:bg-slate-100"
                   >
                     EPUB
@@ -77,6 +79,7 @@ export function LanguageDownloadDropdown({ compact = false }: { compact?: boolea
                 <MenuItem>
                   <a
                     href={data.pdf}
+                    onClick={() => trackDownload(code, 'pdf')}
                     className="text-sm text-slate-700 hover:text-slate-900 hover:underline data-[focus]:bg-slate-100"
                   >
                     PDF
